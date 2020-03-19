@@ -289,21 +289,20 @@ returns to the old top-level browsing context.
 
 ## Notes
 
-<p id="van-goethem"><sup>[1]</sup></p>
-
+<p id="van-goethem">[1]:
 Van Goethem, T. and Joosen, W., 2017. One side-channel to bring them all
 and in the darkness bind them: Associating isolated browsing sessions.
 In _11th {USENIX} Workshop on Offensive Technologies ({WOOT} 17)_.
 ([PDF](https://pdfs.semanticscholar.org/5814/9610a57cb4626918bf003b8bad25e740b1f4.pdf))
+</p>
 
-<p id="permission-methods"><sup>[2]</sup></p>
-
+<p id="permission-methods">[2]:
 Either via a legacy permissions prompt or explicitly requiring the use
 of the [Permissions API](https://w3c.github.io/permissions/) in the spec
 for sensitive APIs.
+</p>
 
-<p id="chains"><sup>[3]</sup></p>
-
+<p id="chains">[3]:
 _New chain_ and _old chain_ are defined in [focus update
 steps](https://html.spec.whatwg.org/multipage/interaction.html#focus-update-steps).
-
+</p>
