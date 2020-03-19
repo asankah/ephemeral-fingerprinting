@@ -145,8 +145,8 @@ available by the API.
     browsing contexts.
 
 *   In practice top-level browsing contexts contain a fair amount of third party
-    scripts which may access the same APIs. Furthermore there will likely be
-    financial incentives to open the APIs to third parties.
+    scripts which may access the same APIs. Furthermore there are financial
+    incentives for first-parties to delegate API access to third-parties.
 
 ### Limit API Access To Visible Browsing Contexts
 
