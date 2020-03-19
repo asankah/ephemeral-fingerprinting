@@ -1,4 +1,4 @@
-# Ephemeral Fingerprinting
+# Ephemeral Fingerprinting On The Web
 
 ### Using Patterns of Low Entropy Signals for Covert Tracking
 
@@ -232,7 +232,7 @@ These should be pretty standard at this point.
 *   Not sufficient by itself.
 
 
-# Spotting Ephemeral Fingerprinting Surfaces
+# Spotting Ephemeral Fingerprinting Surfaces In Web Specs
 
 **Ephemeral fingerprints:**
 
