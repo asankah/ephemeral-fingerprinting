@@ -46,7 +46,8 @@ be used for identification_. Let’s call these **correlated events**.
 1. _A stream of observations of a volatile surface can be identifying_. Let’s
 call these **unique event streams**.
 
-These are not new. For example, this is discussed by Van Goethem et. al.[^1]
+These are not new. For example, this is discussed by Van Goethem et. al.
+<sup>[\[1\]](#van-goethem)</sup>
 who calls these “Cross-Session Events” (§ 5 of linked paper). Potential
 ephemeral fingerprinting surfaces also get flagged during standardization
 discussions (
@@ -69,9 +70,10 @@ discussions (
 
 **Goal:** Require informed consent from users.
 
-There’s precedent for considering permissions[^2] to be sufficient mitigation
-for similar issues. For example, the Media Capture API specification includes
-the following:
+There’s precedent for considering permissions
+<sup>[\[2\]](#permission-methods)</sup> to be sufficient mitigation for
+similar issues. For example, the Media Capture API specification includes the
+following:
 
 > For origins to which permission has been granted, the devicechange event will
 > be emitted across browsing contexts and origins each time a new media device
@@ -280,25 +282,28 @@ when switching browser windows.
 
 #### Possible Mitigation
 
-When the _new chain_ and the _old chain_[^3] are in different top-level
-browsing contexts whose active documents are not same-origin, queue but don’t
-fire `change` and `blur` events until focus returns to the old top-level
-browsing context.
+When the _new chain_ and the _old chain_<sup>[\[3\]](#chains)</sup> are in
+different top-level browsing contexts whose active documents are not
+same-origin, queue but don’t fire `change` and `blur` events until focus
+returns to the old top-level browsing context.
 
 ## Notes
 
-[^1]:
-     Van Goethem, T. and Joosen, W., 2017. One side-channel to bring them all
-     and in the darkness bind them: Associating isolated browsing sessions.
-     In _11th {USENIX} Workshop on Offensive Technologies ({WOOT} 17)_.
-     ([PDF](https://pdfs.semanticscholar.org/5814/9610a57cb4626918bf003b8bad25e740b1f4.pdf))
+<p id="van-goethem"><sup>[1]</sup></p>
 
-[^2]:
-     Either via a legacy permissions prompt or explicitly requiring the use
-     of the [Permissions API](https://w3c.github.io/permissions/) in the spec
-     for sensitive APIs.
+Van Goethem, T. and Joosen, W., 2017. One side-channel to bring them all
+and in the darkness bind them: Associating isolated browsing sessions.
+In _11th {USENIX} Workshop on Offensive Technologies ({WOOT} 17)_.
+([PDF](https://pdfs.semanticscholar.org/5814/9610a57cb4626918bf003b8bad25e740b1f4.pdf))
 
-[^3]:
-     _New chain_ and _old chain_ are defined in [focus update
-     steps](https://html.spec.whatwg.org/multipage/interaction.html#focus-update-steps).
+<p id="permission-methods"><sup>[2]</sup></p>
+
+Either via a legacy permissions prompt or explicitly requiring the use
+of the [Permissions API](https://w3c.github.io/permissions/) in the spec
+for sensitive APIs.
+
+<p id="chains"><sup>[3]</sup></p>
+
+_New chain_ and _old chain_ are defined in [focus update
+steps](https://html.spec.whatwg.org/multipage/interaction.html#focus-update-steps).
 
