@@ -6,8 +6,8 @@
 # ==============================================================================
 # These variables are shown in the website header.
 # ------------------------------------------------------------------------------
-website_title:   'Ephemeral Fingerprinting'
-website_tagline: 'What it is and how to spot it'
+website_title:   'Ephemeral Fingerprinting On The Web'
+website_tagline: 'Using Patterns of Low Entropy Signals for Covert Tracking'
 # ==============================================================================
 #                                  GITHUB LINKS                                 
 # ==============================================================================

@@ -1,7 +1,5 @@
 # Ephemeral Fingerprinting On The Web
 
-### Using Patterns of Low Entropy Signals for Covert Tracking
-
 ## Background
 
 TL;DR:
