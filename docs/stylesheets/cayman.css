@@ -98,7 +98,6 @@ a {
   @media screen and (min-width: 64em) {
     .main-content {
       max-width: 64rem;
-      padding: 2rem 6rem;
       margin: 0 auto;
       font-size: 1.1rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
@@ -116,21 +115,23 @@ a {
   .main-content h4,
   .main-content h5,
   .main-content h6 {
+    padding: 0rem 1rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
     color: #159957; }
   .main-content p {
+    padding: 0rem 1rem;
     margin-bottom: 1em; }
   .main-content code {
-    padding: 2px 4px;
+    padding: 2px 1.1rem;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 0.9rem;
     color: #567482;
     background-color: #f3f6fa;
     border-radius: 0.3rem; }
   .main-content pre {
-    padding: 0.8rem;
+    padding: 0.8rem 1rem;
     margin-top: 0;
     margin-bottom: 1rem;
     font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -180,7 +181,7 @@ a {
   .main-content ol {
     margin-top: 0; }
   .main-content blockquote {
-    padding: 0 1rem;
+    padding: 0rem 2rem;
     margin-left: 0;
     color: #819198;
     border-left: 0.3rem solid #dce6f0; }
@@ -189,6 +190,7 @@ a {
     .main-content blockquote > :last-child {
       margin-bottom: 0; }
   .main-content table {
+    padding: 0rem 1rem;
     display: block;
     width: 100%;
     overflow: auto;
