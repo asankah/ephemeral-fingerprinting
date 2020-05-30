@@ -42,8 +42,8 @@ $endfor$
       <h1 class="project-name">$website_title$</h1>
       <h2 class="project-tagline">$website_tagline$</h2>
       <a href="https://github.com/$your_github_username$/$your_github_reponame$" class="btn">View on GitHub</a>
-      <a href="https://github.com/$your_github_username$/$your_github_reponame$/archive/master.zip" class="btn">Download .zip</a>
-      <a href="https://github.com/$your_github_username$/$your_github_reponame$/archive/master.tar.gz" class="btn">Download .tar.gz</a>
+      <a href="https://github.com/$your_github_username$/$your_github_reponame$/issues" class="btn">Issues</a>
+      <a href="https://github.com/$your_github_username$/$your_github_reponame$/issues/new" class="btn">New Issue</a>
     </section>
     <section class="main-content">
  
