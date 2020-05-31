@@ -13,7 +13,34 @@ a {
   color: #1e6bb8;
   text-decoration: none; }
   a:hover {
-    text-decoration: underline; }
+    text-decoration: underline;
+}
+
+.buttons {
+  word-wrap: break-word;
+}
+.buttons :first-child {
+  margin-top: 0;
+}
+@media screen and (min-width: 64em) {
+  .buttons {
+    max-width: 64rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  } 
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .buttons {
+    padding: 0rem 4rem;
+    font-size: 1.1rem; 
+  } 
+}
+@media screen and (max-width: 42em) {
+  .buttons {
+    padding: 0rem 1rem;
+    font-size: 1rem;
+  }
+}
 
 .btn {
   display: inline-block;

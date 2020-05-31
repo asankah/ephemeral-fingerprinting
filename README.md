@@ -62,7 +62,7 @@ discussions (
 *   `MediaDevices.devicechange` event.
 *   `GlobalEventHandlers.onfocus` and `onblur` events can fire simultaneously when switching between two browser windows.
 
-# Mitigations
+## Mitigations
 
 ### Permissions
 
