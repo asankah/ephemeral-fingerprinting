@@ -203,7 +203,7 @@ Just makes sense.
 Not sufficient by itself.
 </li>
 </ul>
-<h1 id="spotting-ephemeral-fingerprinting-surfaces-in-web-specs">Spotting Ephemeral Fingerprinting Surfaces In Web Specs</h1>
+<h2 id="spotting-ephemeral-fingerprinting-surfaces-in-web-specs">Spotting Ephemeral Fingerprinting Surfaces In Web Specs</h2>
 <p><strong>Ephemeral fingerprints:</strong></p>
 <ul>
 <li>
@@ -240,7 +240,7 @@ Not sufficient by itself.
 <p>When focus traverses a browsing context boundary, these events may be fired simultaneously to two different browsing contexts. Browsers mitigate this by not firing <code>blur</code> for cross site tab switches, but they still fire <code>blur</code> when the browser itself goes out of focus. Thus identity can be correlated when switching browser windows.</p>
 <h4 id="possible-mitigation">Possible Mitigation</h4>
 <p>When the <em>new chain</em> and the <em>old chain</em><sup><a href="#chains">[3]</a></sup> are in different top-level browsing contexts whose active documents are not same-origin, queue but don’t fire <code>change</code> and <code>blur</code> events until focus returns to the old top-level browsing context.</p>
-<h2 id="notes">Notes</h2>
+<h3 id="notes">Notes</h3>
 <p><span id="van-goethem">[1]</span>: Van Goethem, T. and Joosen, W., 2017. One side-channel to bring them all and in the darkness bind them: Associating isolated browsing sessions. In <em>11th {USENIX} Workshop on Offensive Technologies ({WOOT} 17)</em>. (<a href="https://pdfs.semanticscholar.org/5814/9610a57cb4626918bf003b8bad25e740b1f4.pdf">PDF</a>)</p>
 <p><span id="permission-methods">[2]</span>: Either via a legacy permissions prompt or explicitly requiring the use of the <a href="https://w3c.github.io/permissions/">Permissions API</a> in the spec for sensitive APIs.</p>
 <p><span id="chains">[3]</span>: <em>New chain</em> and <em>old chain</em> are defined in <a href="https://html.spec.whatwg.org/multipage/interaction.html#focus-update-steps">focus update steps</a>.</p>

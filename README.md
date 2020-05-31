@@ -230,7 +230,7 @@ These should be pretty standard at this point.
 *   Not sufficient by itself.
 
 
-# Spotting Ephemeral Fingerprinting Surfaces In Web Specs
+## Spotting Ephemeral Fingerprinting Surfaces In Web Specs
 
 **Ephemeral fingerprints:**
 
@@ -285,7 +285,7 @@ different top-level browsing contexts whose active documents are not
 same-origin, queue but don’t fire `change` and `blur` events until focus
 returns to the old top-level browsing context.
 
-## Notes
+### Notes
 
 <span id="van-goethem">[1]</span>:
 Van Goethem, T. and Joosen, W., 2017. One side-channel to bring them all
