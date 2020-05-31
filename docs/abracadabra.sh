@@ -8,3 +8,5 @@ pandoc  --no-highlight \
         --template   ../../asankah.github.io/docs/article.template \
         --output     ./index.html \
         ../README.md ./configuration.yaml
+cp ../../asankah.github.io/stylesheets/article.css ./stylesheets/article.css
+
