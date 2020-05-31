@@ -180,6 +180,11 @@ a:hover {
   }
 }
 
+.date {
+  text-align: right;
+  font-size: 70%;
+}
+
 .main-content {
   word-wrap: break-word;
 }
