@@ -350,7 +350,7 @@ h1 {
   color: #fff;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  margin-block-start: 0;
+  margin-top: 0;
   background-color: var(--background);
   background-image: var(--banner);
   position: relative;
