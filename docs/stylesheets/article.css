@@ -346,31 +346,32 @@ a:hover {
   margin-left: -1em;
 }
 
-h1 {
-  color: #fff;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
+.main-content h1 {
   background-color: var(--background);
   background-image: var(--banner);
-  position: relative;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
   left: calc(-1 * var(--horz-padding, 0));
+  margin-top: 0;
+  position: relative;
+  text-align: center;
   width: calc(100% + var(--horz-padding, 0) * 2);
 }
 
 @media screen and (min-width: 64em) {
-  h1 {
+  .main-content h1 {
     padding: 1rem 2rem;
   }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  h1 {
+  .main-content h1 {
     padding: 1rem 2rem;
   }
 }
 
 @media screen and (max-width: 42em) {
-  h1 {
+  .main-content h1 {
     padding: 1rem 1rem;
   }
 }
