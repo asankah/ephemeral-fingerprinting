@@ -1,5 +1,7 @@
-# Ephemeral Fingerprinting On The Web
-
+---
+title: "Ephemeral Fingerprinting On The Web"
+date: 2020-04-01
+---
 ## Background
 
 TL;DR:
@@ -12,7 +14,7 @@ TL;DR:
     multiple first parties. A single third party embedded within multiple first
     parties can also use this method.
 
-![diagram of site isolation boundaries with overlap](images/isolation-boundaries.png)
+![diagram of site isolation boundaries with overlap](/images/isolation-boundaries.png)
 
 **Example 1**:  Two sites observe a sequence of device orientation changes at
 times 𝒕₀, 𝒕₁,𝒕₂.
