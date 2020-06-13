@@ -2,6 +2,8 @@
 title: "Ephemeral Fingerprinting On The Web"
 date: 2020-04-01
 ---
+# Ephemeral Fingerprinting On The Web
+
 ## Background
 
 TL;DR:
