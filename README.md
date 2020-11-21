@@ -51,7 +51,7 @@ later time. However the timestamps corresponding to orientation changes
 could have identifying levels of entropy.
 
 These are not new. For example, this is discussed by Van Goethem et.
-al. [1]
+al.[1]
 
 who calls these “Cross-Session Events” (§ 5 of linked paper). Potential
 ephemeral fingerprinting surfaces also get flagged during
